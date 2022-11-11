@@ -1,17 +1,17 @@
 public class Main {
     public static void main(String[] args) {
 
-        int accountclient = 100;
-        int depositamount = 1100;
-        int bonus;
+        int AccountClient = 100;
+        int DepositAmount = 1100;
+        int Bonus;
 
-        if (depositamount > 1000) {
-            bonus = depositamount / 100;
-        }
-        else { bonus = 0;
+        if (DepositAmount > 1000) {
+            Bonus = DepositAmount / 100;
+        } else {
+            Bonus = 0;
         }
 
-        int balanceaccount = accountclient + depositamount + bonus;
-        System.out.println("Баланс вашего счета:" + balanceaccount + " руб. Полученный бонус: " + bonus + "руб" );
+        int BalanceAccount = AccountClient + DepositAmount + Bonus;
+        System.out.println("Баланс вашего счета:" + BalanceAccount + " руб. Полученный бонус: " + Bonus + "руб");
     }
 }
